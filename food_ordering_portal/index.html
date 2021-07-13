@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummyEats- 1</title>
+    <link rel="icon" href="https://img.icons8.com/color/48/fa314a/half-orange.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        function city_Name()
+        {
+            var city_val= document.getElementById('city').value;
+            if (city_val == 'jamshedpur' || city_val =='Jamshedpur')
+            {
+                window.location.replace("index1.html");
+            }else{
+                alert("Sorry our services are limited right now. Please type correct city name");
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="hero-bg">
+<section class="top">
+<header>
+<a href="#">yummyEats</a>
+</header>
+<h1><span>The Healthy</span> Eating Experience</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut nemo quos culpa tenetur debitis animi aperiam nisi in error Harum.</p>
+<div class="form-container">
+<form action="">
+    <div class="form-left">
+    <label for="city">Enter your city:</label>
+    <input type="text" name="city" id="city" value="" placeholder="Type city name as jamshedpur">
+    <p>Example: "San Diego"</p>
+    </div>
+    <input type="button" value="Find Food Now" onclick="city_Name()">
+</form>
+</div>
+</section>
+</div> 
+<section class="Authentic">
+    <div class="right-col">
+        <h2>Authentic. Awesome.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nesciunt ipsam, aliquid modi possimus dicta sint quod vitae explicabo pariatur.</p>
+    </div>
+    <img src="images/food.jpg" alt="food on a plate">
+</section>
+</body>
+</html>

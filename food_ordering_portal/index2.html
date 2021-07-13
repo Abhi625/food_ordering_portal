@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>yummyEats- 3</title>
+        <link rel="icon" href="https://img.icons8.com/color/48/fa314a/half-orange.png" type="image/x-icon">
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="css/main2.css" />
+        <script src="js/store2.js" async></script>
+    </head>
+    <body>
+        <div class="back">
+            <button class="back_btn" onclick="go_back()">Back</button>
+        </div>
+        <div class="main">
+            <div class="nav"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="header"><h2>yummyEats</h2></div>
+            <div class="location"><i class="fa fa-map-marker"></i><h3>Jamshedpur</h3></div>
+            <div class="deliverN"><i class="fa fa-clock-o"></i><h3>Deliver now</h3></div>
+            <div id="right">
+            <div class="search"><i class="fa fa-search"></i><h3>Search</h3></div>
+            <div class="signin"><h3>Sign in</h3></div>
+            </div>
+            </div>
+            <br><br>
+            <div class="first_image">
+            <img class="res_image1" src="images/res_image7.jpg">
+            <div class="sec_image">
+            <img class="res_image2" src="images/res_image2.jpg">
+            <img class="res_image3" src="images/res_image3.jpg">
+            <img class="res_image4" src="images/res_image4.jpg">
+            <img class="res_image5" src="images/res_image5.jpg">
+            </div>
+        </div>
+        
+        <div class="res_details">
+            <h1 class="res_name">KolKata Foodies</h1>
+            <p>Chinese, Street food</p>
+            <p>10:00a.m - 10:00pm Mon-Fri</p>
+        </div>  
+           
+        <section class="container content-section">
+        
+            <div class="food-items">
+                <div class="food-item">
+                    <span class="food-item-title">Veg Noodles</span>
+                    <img class="food-item-image" src="images/veg_noodles.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>165</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <span class="food-item-title">Chocolate Cake</span>
+                    <img class="food-item-image" src="images/chocolate_cake.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>125</span>
+                        <button class="btn btn-primary food-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <span class="food-item-title">Masala Dosa</span>
+                    <img class="food-item-image" src="images/masala_Dosa.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>225</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <span class="food-item-title">Mushroom Roll</span>
+                    <img class="food-item-image" src="images/mushroom_roll.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>150</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <span class="food-item-title">Burger</span>
+                    <img class="food-item-image" src="images/burger.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>200</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <span class="food-item-title">Veg Biryani</span>
+                    <img class="food-item-image" src="images/veg_biryani.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>250</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <span class="food-item-title">Veg Manchurian</span>
+                    <img class="food-item-image" src="images/veg_manchurian.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>275</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="food-item">
+                    <span class="food-item-title">Fried Rice</span>
+                    <img class="food-item-image" src="images/fried_rice.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price"><i class="fa fa-inr"></i>100</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column"><i class="fa fa-inr"></i>PRICE </span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total<i class="fa fa-inr"></i></strong>
+                <strong class="cart-total-price">0</strong>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Continue</button>
+        </section>
+        
+    </body>
+</html>

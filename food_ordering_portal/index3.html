@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>yummyEats- 4</title>
+    <link rel="icon" href="https://img.icons8.com/color/48/fa314a/half-orange.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="css/main3.css">
+</head>
+<script src="js/store3.js" async></script>
+<body>
+    <div class="back">
+        <button class="back_btn" onclick="go_back()">Back</button>
+    </div>
+
+<h2 class="checkout">Checkout</h2>
+<div class="row">
+    <div class="col-75">
+        <div class="container">
+            <form id="form_val">
+                <div class="row">
+                    <div class="col-50">
+                        <h3>Delivery Address</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="fullname" placeholder="abc xyz" value="">
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="abc@gmail.com" >
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="delivery address">
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="city name" >
+
+                        <div class="row">
+                            <div class="col-50">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="state name">
+                            </div>
+                            <div class="col-50">
+                                <label for="zip">Pincode</label>
+                                <input type="number" id="zip" name="zip" placeholder="123456">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="fname">Accepted Cards</label>
+                        <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="name">
+                        <label for="ccnum">Card number</label>
+                        <input type="number" id="ccnum" name="cardnumber" placeholder="1111222233334444">
+                        <label for="expmonth">Exp Month</label>
+                        <input type="number" id="expmonth" name="expmonth" placeholder="01">
+                        <div class="row">
+                            <div class="col-50">
+                                <label for="expyear">Exp Year</label>
+                                <input type="number" id="expyear" name="expyear" placeholder="2022">
+                            </div>
+                            <div class="col-50">
+                                <label for="cvv">CVV</label>
+                                <input type="number" id="cvv" name="cvv" placeholder="111">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <input type="button" value="Continue to checkout" class="btn" onclick="validate()">
+            </form>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>
